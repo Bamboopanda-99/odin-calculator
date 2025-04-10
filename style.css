@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  font-size: 50px;
+  background-color: pink;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 6 rem;
+  text-align: center;
+  color: rgb(97, 6, 97);
+  font-weight: 900;
+  -webkit-text-stroke: 2px greenyellow;
+}
+
+button {
+  border: 2px solid white;
+}
