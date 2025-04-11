@@ -1,24 +1,72 @@
-* {
-  box-sizing: border-box;
-  font-size: 50px;
-  background-color: pink;
-}
-
 body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
   font-family: "Roboto", sans-serif;
 }
-
-h1 {
-  font-size: 6 rem;
-  text-align: center;
-  color: rgb(97, 6, 97);
-  font-weight: 900;
-  -webkit-text-stroke: 2px greenyellow;
+.btn {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  font-size: 50px;
 }
-
-button {
-  border: 2px solid white;
+.number:hover {
+  background-color: palegreen;
+}
+.number {
+  border: 2px solid greenyellow;
+  border-radius: 10px;
+}
+.operator:hover {
+  background-color: palegreen;
+}
+.operator {
+  border: 1px solid steelblue;
+  border-radius: 10px;
+}
+.decimal:hover {
+  background-color: palegreen;
+}
+.decimal {
+  border: 1px solid gold;
+  border-radius: 10px;
+}
+.equal:hover {
+  background-color: palegreen;
+}
+.equal {
+  border: 1px solid red;
+  border-radius: 10px;
+}
+.clear-btn:hover {
+  background-color: palegreen;
+}
+#clear-btn {
+  border: 1px solid violet;
+  border-radius: 10px;
+}
+.first-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+#screen {
+  width: 400px;
+  border: 1px solid salmon;
+  height: 75px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.previous {
+  font-size: 20px;
+}
+.current {
+  font-size: 30px;
 }
